@@ -1,0 +1,13 @@
+body {
+    animation-name: epilepsy;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes epilepsy {
+    0%   {background-color:red;}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    100% {background-color:red;}
+}
